@@ -10,7 +10,7 @@
 
 
 .img__fundo{
-height: 105vh;
+height: 100vh;
 background-image: url(../img/img-fundo.jpeg);
 background-repeat: no-repeat;
 background-size:  100% 100%;
@@ -18,7 +18,7 @@ background-position: relative !important;
 }
 @media(max-width: $mobile-size){
     .img__fundo {
-        height: 100vh;
+        height: 75vh;
         background-image: url(../img/img-fundo.jpeg);
         background-repeat: no-repeat;
         background-size:  100% 100%;
@@ -156,7 +156,7 @@ background-position: relative !important;
 }
 
 .texto__projectos{
-    margin-top: 15px;
+    margin-top: 40px;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -168,9 +168,9 @@ background-position: relative !important;
 }
 
 
-.carousel-inner {    
-    height: 550px !important;
-    margin: 0 0px 90px;
+.carousel-inner {   
+    height: 590px !important;
+    margin: 40px 0px 90px;
     position: relative !important;
      
   
@@ -266,7 +266,7 @@ background-position: relative !important;
         width: 800px;
         justify-content: center;
         font-size: 35px;
-        margin-top: 40px;
+        margin-top: 100px;
         margin-bottom: 28px;
         
 
@@ -275,7 +275,8 @@ background-position: relative !important;
             display: flex;
             justify-content: center;
             font-size: 35px;
-            margin: 50px 0px 0px;
+            margin-top: 40px;
+            // margin: 50px 0px 0px;
             padding: 0px;
         
         }
@@ -298,8 +299,8 @@ background-position: relative !important;
             justify-content: center;
             font-size: 15px;
             width: 300px;
-            margin-top: 40px;
-            margin-bottom: 20px;
+            margin-top: 15px;
+            margin-bottom: 9px;
 
         }
 

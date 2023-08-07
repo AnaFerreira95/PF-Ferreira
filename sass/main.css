@@ -6,7 +6,7 @@
 }
 
 .img__fundo {
-  height: 105vh;
+  height: 100vh;
   background-image: url(../img/img-fundo.jpeg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -15,7 +15,7 @@
 
 @media (max-width: 768px) {
   .img__fundo {
-    height: 100vh;
+    height: 75vh;
     background-image: url(../img/img-fundo.jpeg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -150,7 +150,7 @@
 }
 
 .texto__projectos {
-  margin-top: 15px;
+  margin-top: 40px;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -164,8 +164,8 @@
 }
 
 .carousel-inner {
-  height: 550px !important;
-  margin: 0 0px 90px;
+  height: 590px !important;
+  margin: 40px 0px 90px;
   position: relative !important;
 }
 .carousel-inner .container {
@@ -258,7 +258,7 @@
   width: 800px;
   justify-content: center;
   font-size: 35px;
-  margin-top: 40px;
+  margin-top: 100px;
   margin-bottom: 28px;
 }
 @media (max-width: 768px) {
@@ -267,7 +267,7 @@
     display: flex;
     justify-content: center;
     font-size: 35px;
-    margin: 50px 0px 0px;
+    margin-top: 40px;
     padding: 0px;
   }
 }
@@ -287,8 +287,8 @@
     justify-content: center;
     font-size: 15px;
     width: 300px;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 9px;
   }
 }
 .formulario .form {
