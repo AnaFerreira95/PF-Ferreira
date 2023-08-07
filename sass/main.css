@@ -29,7 +29,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   box-sizing: border-box;
 }
 @media (max-width: 768px) {
@@ -67,7 +67,7 @@
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
-  margin: 10px;
+  margin: 30px;
 }
 .header .item a {
   text-decoration: none;
@@ -89,7 +89,7 @@
 .inicio .texto {
   font-size: 25px;
   display: flex;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   width: 50%;
   margin-left: 30px;
   padding-top: 30px;
@@ -111,7 +111,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
 }
 @media (max-width: 768px) {
   .servicios .texto__servicio {
@@ -120,17 +120,17 @@
 }
 
 .nuestros__servicios {
-  background-color: rgba(236, 232, 217, 0.1921568627);
+  background-color: rgba(236, 232, 217, 0.3803921569);
   width: 80%;
   padding: 5%;
   margin-left: 150px;
   box-sizing: border-box;
   text-align: justify;
   margin-top: 25px;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   display: grid;
   gap: 100px;
-  row-gap: 50px;
+  row-gap: 90px;
   grid-template-columns: 500px 500px;
   justify-content: center;
   align-items: center;
@@ -138,12 +138,13 @@
 }
 @media (max-width: 768px) {
   .nuestros__servicios {
+    font-size: 13.4px;
     margin: 32px 20px;
     grid-template-columns: auto;
     text-align: justify;
-    -moz-column-gap: 30px;
-         column-gap: 30px;
-    row-gap: 30px;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+    row-gap: 10px;
     grid-template-areas: "Deseño" "Mobiliario" "Colores" "Iluminación";
   }
 }
@@ -154,7 +155,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
 }
 @media (max-width: 768px) {
   .texto__projectos {
@@ -187,7 +188,7 @@
   justify-content: center;
   align-items: center;
   position: relative !important;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
 }
 @media (max-width: 1024px) {
   .carousel-inner .content {
@@ -215,7 +216,7 @@
   margin-top: 50px;
 }
 .nosotros h1 {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-size: 40px;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -230,7 +231,7 @@
   }
 }
 .nosotros p {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-size: 20px;
   width: 700px;
   margin-left: 30px;
@@ -238,7 +239,7 @@
 }
 @media (max-width: 768px) {
   .nosotros p {
-    width: 416px;
+    width: 355px;
   }
 }
 
@@ -252,51 +253,62 @@
   }
 }
 .formulario .texto__formulario h1 {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   display: flex;
+  width: 800px;
   justify-content: center;
-  font-size: 30px;
+  font-size: 35px;
   margin-top: 40px;
-  margin-bottom: 35px;
-  margin-left: 10px;
+  margin-bottom: 28px;
 }
 @media (max-width: 768px) {
   .formulario .texto__formulario h1 {
+    width: 300px;
     display: flex;
     justify-content: center;
+    font-size: 35px;
+    margin: 50px 0px 0px;
+    padding: 0px;
   }
 }
 .formulario .texto__formulario p {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   display: flex;
+  width: 800px;
   justify-content: center;
   font-size: 20px;
   text-align: justify;
   margin-top: 10px;
-  margin-left: 10px;
 }
 @media (max-width: 768px) {
   .formulario .texto__formulario p {
-    width: 250px;
+    width: 300px;
     display: flex;
     justify-content: center;
+    font-size: 15px;
+    width: 300px;
+    margin-top: 40px;
+    margin-bottom: 20px;
   }
 }
 .formulario .form {
-  background-color: rgba(241, 231, 219, 0.689);
-  margin: 80px 350px 150px 350px;
+  width: 40%;
   box-sizing: border-box;
-  padding: 10px;
+  margin-bottom: 150px;
+  margin-top: 10px;
+  padding: 20px;
   display: grid;
-  justify-content: center;
+  place-self: left;
+  margin-left: 100px;
   gap: 30px;
   grid-template-columns: 250px 250px;
   grid-template-areas: "nombre email" "phone subject" "message message" "submit submit";
 }
 @media (max-width: 768px) {
   .formulario .form {
+    width: 350px;
     margin: 3px 2px;
-    grid-template-columns: 250px;
+    grid-template-columns: 150px;
     text-align: justify;
     -moz-column-gap: 8px;
          column-gap: 8px;
@@ -311,9 +323,14 @@
   border-radius: 4px;
   background-color: transparent;
 }
+@media (max-width: 768px) {
+  .formulario .form input {
+    width: 300px;
+  }
+}
 .formulario .form label {
   margin-bottom: 10px;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
 }
 .formulario .name {
   grid-area: nombre;
@@ -340,12 +357,17 @@
   display: flex;
   flex-direction: column;
 }
-.formulario .mensaje {
+.formulario #mensaje {
   height: 100px;
   outline: none;
   border: 1px solid #8E9B6D;
   border-radius: 4px;
   background-color: transparent;
+}
+@media (max-width: 768px) {
+  .formulario #mensaje {
+    width: 300px;
+  }
 }
 .formulario .submit {
   grid-area: submit;
@@ -359,6 +381,7 @@
   height: 200px;
   padding: 10px;
   display: grid;
+  place-self: center;
   grid-template-columns: 400px 400px;
   grid-template-areas: "contacto redes";
   align-items: center;
@@ -379,20 +402,30 @@
   grid-area: contacto;
   display: flex;
   flex-direction: column;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   color: white;
 }
 .footer .contacto h3 {
-  font-size: 20px;
+  font-size: 25px;
 }
 .footer .redes {
   grid-area: redes;
   display: flex;
   flex-direction: column;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   color: white;
   font-size: 17px;
 }
 .footer .redes h3 {
-  font-size: 20px;
+  font-size: 25px;
+}
+.footer .img__footer {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.footer .contact__item {
+  display: flex;
+  flex-direction: row;
 }/*# sourceMappingURL=main.css.map */
